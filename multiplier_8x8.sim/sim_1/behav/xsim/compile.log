@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/asyn_2_1_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module asyn_2_1_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/left_shifter_8_to_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shifter_8_to_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/multiplier_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/multiplier_8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_8x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/multiplier_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/mux_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/register_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/segment_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module segment_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sources_1/new/t_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nsreen/Desktop/multiplier_8x8/multiplier_8x8.srcs/sim_1/new/multiplier_8x8_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_8x8_tb

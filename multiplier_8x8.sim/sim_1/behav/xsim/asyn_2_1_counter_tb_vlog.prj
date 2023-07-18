@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../multiplier_8x8.srcs/sources_1/new/asyn_2_1_counter.v" \
+"../../../../multiplier_8x8.srcs/sources_1/new/t_ff.v" \
+"../../../../multiplier_8x8.srcs/sim_1/new/asyn_2_1_counter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
