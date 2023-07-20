@@ -56,7 +56,7 @@ Additional outputs are a done bit (done_flag) and seven signals to drive a 7 seg
 ### Schematic:
 ![image](https://github.com/Nsreen-Nashaat/8x8_multiplier_codes/assets/89663367/a47bcc65-24e0-4ee1-b0e0-997455bae280)
 ### Simulation:
-![image](https://github.com/Nsreen-Nashaat/8x8_multiplier_codes/assets/89663367/088b1ec7-26d3-43cd-9e72-94a050919cff)
+![image](https://github.com/Nsreen-Nashaat/multiplier_8x8/assets/89663367/2ce7ab89-503e-42a8-9bdc-17a30a99ad4f)
 
 
 
