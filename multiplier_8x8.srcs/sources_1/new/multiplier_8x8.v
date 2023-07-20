@@ -33,9 +33,9 @@ module multiplier_8x8
      
     multiplier_4bit b1
     (
-        .a(aout[3:0]),
-        .b(bout[3:0]),
-        .result(product[7:0])
+        .a(aout),
+        .b(bout),
+        .result(product)
     );
 
     mux_2_1 a2
@@ -48,9 +48,9 @@ module multiplier_8x8
 
     left_shifter_8_to_16 s1
     (
-        .data_in(product[7:0]),
-        .shift_cntrl(shift[1:0]),
-        .data_out(shift_out[15:0])
+        .data_in(product),
+        .shift_cntrl(shift),
+        .data_out(shift_out)
     );
     
     register_16bit q1
@@ -76,10 +76,10 @@ module multiplier_8x8
         .clk(clk),
         .reset_a(reset_a),
         .start(start),
-        .count(count[1:0]),
-        .input_sel(sel[1:0]),
-        .shift_sel(shift[1:0]),
-        .state_out(state_out[2:0]),
+        .count(count),
+        .input_sel(sel),
+        .shift_sel(shift),
+        .state_out(state_out),
         .done(done_flag),
         .clk_ena(clk_ena),
         .sclr_n(sclr_n)
@@ -89,7 +89,7 @@ module multiplier_8x8
     (
         .clk(clk),
         .aclr_n(!start),
-        .count_out(count[1:0])
+        .count_out(count)
      );
      
     segment_7 t1

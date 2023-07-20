@@ -33,88 +33,27 @@ module multiplier_8x8_tb;
     .seg_g(seg_g)
   );
 
-  // Clock generation
-  always
+			 
+    initial
     begin
-     clk<=1'b1;
-     #50;
-     clk<=1'b0;
-     #50;
+        dataa = 8'b11111111;
+        datab = 8'b11111111;
+        clk = 0;
+        reset_a = 0;
+        start = 0;
+        #84
+        reset_a = 1;
+        start = 1;
+        #42
+        start = 0;
     end
 
-  // Initialize
-  initial begin
-    start = 0;
-    reset_a =0;
-    clk = 0;
-    dataa = $random;
-    datab = $random;
-    #2;
-    //  Multiplication of 10 and 5
-    reset_a = 1 ;
-     start = 1;
-     dataa = 8'b00110010; 
-     datab = 8'b00001010;
-   
-   
-    #100	
-   
-    start = 0; 
-    #400;
 
-    // Check the result
-    $display("Result: %d", product8_8);
-    
-    start = 0;
-    reset_a =0;
-    dataa = 8'b00000000;
-    datab = 8'b00000000;
-    #48;
-    start = 1;
-    #100;
-    
-    // Test scenario 2: Multiplication of 7 and 3
-    reset_a =1;
-     dataa = 8'b00000111; // 7
-       datab = 8'b00000011; // 3 
-     
-    // Start 
-    
+    always
+    begin
+    #35 clk = ~ clk;
+    end
+    initial #500 $finish;
 
-    // Wait to complete multiplication
-    #100;
-    start = 0;
-    // Wait to show result
-    #300;
-
-    // Check the result
-    $display("Result: %d", product8_8);
-    //$monitor($time, " count_out='b%x", dut.multiplier_8x8_tb.count_out);
-        start = 0;
-        reset_a =0;
-        clk = 0;
-        dataa = 8'b00000000;
-        datab = 8'b00000000;
-        #2;
-        
-        
-        // Test scenario 2: Multiplication of 7 and 3
-        reset_a =1;
-        dataa = 8'b00001010; // 10
-        datab = 8'b00000101; // 5
-
-        // Start 
-        start = 1;
-    
-        // Wait to complete multiplication
-        #100;
-        start = 0;
-        // Wait to show result
-        #300;
-    
-        // Check the result
-        $display("Result: %d", product8_8);
-    
-
-  end
 endmodule
+
